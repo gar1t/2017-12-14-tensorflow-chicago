@@ -11,7 +11,25 @@ class: center, middle
     - Find a model to train
     - Train the model
     - Deploy to Cloud ML
-    - Use to make predictions
+    - Make predictions
+
+- Models and operations
+    - Model files
+    - Operations
+    - Flags
+    - Resources
+    - Operation dependencies
+
+---
+
+# Topics to cover (cont)
+
+- Runs
+    - Running an operation
+    - Training
+    - Managing runs
+    - Comparing runs
+    - View runs with TensorBoard
 
 - Packages
     - Packaging goals
@@ -25,31 +43,20 @@ class: center, middle
 
 # Topics to cover (cont)
 
-- Models and operations
-    - Model files
-    - Operations
-    - Flags
-    - Resources
-    - Operation dependencies
-
-- Runs
-    - Running an operation
-    - Training
-    - Managing runs
-    - Comparing runs
-    - View runs with TensorBoard
-
----
-
-# Topics to cover (cont)
-
 - Cloud ML
     - Training for Cloud ML
     - Deploying to Cloud ML
     - Syncing remote runs
 
+- Plugins
+    - Model discovery (zero-config training)
+    - Enhanced logging
+    - Operations
+
 - Roadmap
     - More packages
-    - Run diffs
-    - Support for TensorFlow Serving
-    - Visualizations (`guild view`)
+    - Windows support
+    - `guild diff` (low level run compare)
+    - TensorFlow Serving plugin
+    - `guild view` (Web UI, visualizations)
+    - API
